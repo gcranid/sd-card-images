@@ -43,5 +43,5 @@ docker run --rm -v ./images:/artifacts sd-images build-boot raspberrypi_3b_plus 
 * build ubuntu jammy
 
 ```bash
-docker run --rm -v ./images:/artifacts sd-images build-debian ubuntu arm64 jammy
+docker run --rm -v ./images:/artifacts sd-images build-debian ubuntu arm64 noble
 ```
